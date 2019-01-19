@@ -36,6 +36,8 @@ OR run in a Docker container on detach mode
 ./gradlew build docker && docker run -d -p 8080:8080 vpfeifer/url-short
 ```
 
+You can see some test data going to http://localhost:8080/shortUrls
+
 ## Built With
 
 * [SpringBoot](https://spring.io/projects/spring-boot) - The web framework used
